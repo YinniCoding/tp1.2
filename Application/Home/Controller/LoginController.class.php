@@ -56,10 +56,6 @@ class LoginController extends Controller{
                 $data['username'] = I('post.username');
                 $data['password'] = I('post.password','','md5');
                 $code = I('verify','','strtolower');
-                //验证验证码是否正确
-                if(!($this->check_verify($code))){
-                $this->error('验证码错误');
-                }
                 $member = M('member')->where($data)->find();
                 //验证账户是否被禁用
                 if($member['type'] == 2){
