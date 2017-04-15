@@ -1,0 +1,214 @@
+<?php if (!defined('THINK_PATH')) exit();?>
+<!--根据浏览器自适应-->
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+
+<html lang="en-us"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>算法系列——c++算法整理</title>
+
+    <meta name="description" content="this description">
+    <meta name="author" content="ThemeBucket">
+    <meta name="copyright" content="ThemeBucket">
+    <meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+    <meta name="date" content="2013-08-24T00:00:00+02:00">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/ThinkphpOS_1.1/Application/Home/View//Public/static/assets/css/main.css">
+    <link rel="stylesheet" href="/ThinkphpOS_1.1/Application/Home/View//Public/static/assets/css/documenter_style.css">
+    <link rel="stylesheet" href="/ThinkphpOS_1.1/Application/Home/View//Public/static/assets/css/codemirror.css">
+
+    <link rel="stylesheet" href="/ThinkphpOS_1.1/Application/Home/View//Public/static/assets02/css/bootstrap.min.css"  media="screen" title="no title">
+    <link rel="stylesheet" href="/ThinkphpOS_1.1/Application/Home/View//Public/static/assets02/css/bootstrap-theme.min.css" media="screen" title="no title">
+    <link rel="stylesheet" href="/ThinkphpOS_1.1/Application/Home/View//Public/static/assets02/css/iconfont.css" media="screen" title="no title">
+
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/ThinkphpOS_1.1/Application/Home/View//Public/static/assets02/js/google-code-prettify/prettify.js"></script>
+    <!-- <script src="assets02/js/jquery.js"></script> -->
+
+    <script src="assets/js/jquery.js"></script> 
+    
+</head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" >
+            <div class="container-fluid">
+               <div class="navbar-header">
+                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                       <span class="sr-only">Toggle navigation</span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                    </button>
+                  <a class="navbar-brand active" href="index.php" style="margin-left:30px;margin-right:120px;">OnlineStudy</a>
+                  <!-- <a href="#documenter_cover" id="documenter_logo">
+                <img src="assets/css/img/icon1.png" alt="">
+            </a> -->
+               </div>
+               <!-- 导航条标识头 -->
+               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+                  <ul class="nav navbar-nav" id="title" style="font-family:微软雅黑;">
+                    <li><a href="<?php echo U('Index/index');?>"  >首页</a></li>
+                    <li><a href="<?php echo U('Page/GeneralCourse');?>">在线学习</a></li>
+
+                    <li><a href="#">编程工具</a></li>
+                    <li><a href="#">知识测验</a></li>
+                    <li><a href="../../FontEnd/liuyan.php">留言板</a></li>
+
+                    <li><a href="#">联系我们</a></li>
+                  </ul>
+                  <form class="navbar-form navbar-right" role="search" style="color:#adadad;font-size: 1.0em;font-family:"微软雅黑";">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Search" style="height: 26px; background-color:ghostwhite;float:left;">
+                    </div>
+                  <!--<button type="submit" class="btn ">Submit</button>-->
+                    <span type="submit" class="glyphicon glyphicon-search" style="padding: 0.7em 0.2em;"></span>
+                    <?php
+ if (isset($_SESSION['username']) && !empty($_SESSION['username'])) { echo "当前用户：".$_SESSION['username']; ?> <a href="<?php echo (U('Login/logout'));?>">退出</a><?php
+}else{ echo "你还没有登录，<a href='login.php'>请先登录</a>"; } ?>
+                    <!-- <a href="#" class="" style="margin-left: 4em;font-size:16px;">登录</a>/<a href="#" class="" style="font-size:16px;">注册   </a> -->
+                  </form>
+                </div>
+            </div>
+
+</nav>
+<!-- mainpart -->
+<div class="container" style="margin-top:150px;">
+        <!-- navabar -->
+        <div class="col-md-12">
+            <nav class="navbar navbar-default" role="navigation" data-toggle="collapse" style="margin:1px;">
+                <div class="navbar-header">
+                    <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                       <span class="sr-only">Toggle navigation</span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                    </button> -->
+                    <a href="#" class="navbar-brand">c++算法系列</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+                    <ul class="nav navbar-nav" style="margin-left:160px;">
+                      <li  ><a href="<?php echo U('Page/cppsuanfa1');?>">总述</a></li>
+                      <li class="active"><a href="<?php echo U('Page/cppsuanfa2');?>">排序总结</a></li>
+                      <li><a href="<?php echo U('Page/cppsuanfa3');?>" class="htmlli">STL学习</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
+        <div class="col-md-12">
+            <section id="html5jc">
+            <div class="title-background" >
+                <div id="htmltitle">
+                  <h4>排序总结</h4>
+                </div>
+            </div>
+
+            <div class="Tutorial">
+                <div id="html5基础知识">
+                  <div id="htmlcontent">
+                      <tr>
+                        <?php
+ error_reporting(0); $con = mysql_connect("localhost","root"); if (!$con){ die('Could not connect: ' . mysql_error()); } mysql_select_db('tpadmin',$con); mysql_query("set names utf8"); $sql = "select * from post where  id = '4'"; $result=mysql_query($sql); $row=mysql_fetch_assoc($result); ?>
+                        <tr>
+                        <?php
+ echo "<pre><h4><tr><td>".$row["content"]."</td><hr><td>".$row["date"]."</td></tr></h4><pre>"; ?>
+
+                </tr>
+
+
+                  </div>
+
+                </div>
+
+                <!-- <div class="mainbody">
+                </div>
+                <div class="but">
+                    <button type="button" class="btn btn-success btn-lg"><a href="FontEnd/htmlCompile/index.html">尝试一下</a></button>
+                </div> -->
+
+              </div>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9">
+        <ul class="pagination">
+  <li><a href="#">&laquo;</a></li>
+  <li class="active"><a href="html-html5.php">1</a></li>
+  <li><a href="FontEnd/html/css3.php">2</a></li>
+  <li><a href="FontEnd/html/bootstrap.php">3</a></li>
+  <li><a href="FontEnd/html/foundation.php">4</a></li>
+  <li><a href="#">&raquo;</a></li>
+</ul>
+            <div class="ds-share" data-thread-key="html-html5" data-title="【Learn HTML5】——HTML5" data-images="此处请替换为分享时显示的图片的链接地址" data-content="此处请替换为分享时显示的内容" data-url="此处请替换为分享时显示的链接地址 " style="margin-top: 50px; margin-left: px; ">
+    <div class="ds-share-inline">
+      <ul  class="ds-share-icons-16">
+        
+        <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+        <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+        <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+        <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+        <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+        
+      </ul>
+      <div class="ds-share-icons-more">
+      </div>
+    </div>
+ </div>
+<!-- 多说评论框 start -->
+  <div class="ds-thread" data-thread-key="html-html5" data-title="【Learn HTML5】——HTML5" data-url="#" style="margin-top:10px;margin-bottom:200px;"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"yinnicoding"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+  </script>
+<!-- 多说公共JS代码 end -->
+        </div>
+         
+            
+        </div>
+
+</div>
+
+</div>
+<header class="bs-docs-nav navbar navbar-static-top" id="top"></header>
+<a href="#" class="back-to-top"><img class="back-to-top" src="assets/img/returntop.png" style="right:20px;"></a>
+<div class="col-md-12" style="margin-top:100px;background-color: #f1f1f1;bottom: 0px;text-align:center ">
+            <div style="text-align:center">
+                <a href="#">免责声明</a>|<a href="#">关于我们</a>
+            </div>
+            <br>
+            <div>
+                OnlineStudy是基于Thinkphp3.2.3开发的站点。正在完善过程中。
+                <br>
+                Copyright &copy 430
+            </div>
+        </div>
+
+</body>
+    <!-- <script type="text/javascript" src="assets02/js/bootstrap.min.js"></script> -->
+
+<!-- <script src="assets02/js/js2/jquery.min.js"></script> -->
+<script type="text/javascript" src="assets02/js/main.js"></script>
+<!-- <script src="assets/js/jquery.scrollTo.js"></script> -->
+<!-- <script src="assets/js/jquery.easing.js"></script> -->
+<!-- <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script> -->
+<!-- <script type="text/javascript" src="jquery-1.8.2.min.js"></script> -->
+<script type="text/javascript">
+    exports($("#c1"));
+</script>
+
+</html>
+
+                   "/>

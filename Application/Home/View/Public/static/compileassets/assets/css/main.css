@@ -1,0 +1,78 @@
+a{
+	text-decoration: none;
+	list-style-type: none;
+}
+#studycourse,#onlinetools,#studyreferences{
+	width: 100%;
+	display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+#studycourse img{
+	margin-left: auto;
+	width: 100%;
+	height: 15%;
+	/*margin-right: auto;*/
+}
+#studycourse ul li{
+	text-decoration: none;
+	list-style: none;
+}
+#onlinetools img{
+	margin-left: auto;
+	width: 100%;
+	height: 15%;
+	/*margin-right: auto;*/
+}
+#onlinetools ul li{
+	list-style: none;
+}
+#studyreferences img{
+	margin-left: auto;
+	width: 100%;
+	height: 15%;
+	/*margin-right: auto;*/
+}
+#studyreferences ul li{
+	list-style: none;
+}
+#html5{
+	background-color: #f1f1f1;
+}
+#html5 #html5_img img{
+	margin-left: 10px;
+	width: 15%;
+}
+.back-to-top{
+background: rgba(255,255,255,0.4);
+font-size: 15px;
+font-family: "微软雅黑";
+position: fixed;
+bottom:30px;
+right: 10px; 
+border: 0.5px solid #888;
+}
+/*.caption-wraper{
+    position:absolute; 
+    left: 50%;
+    bottom:2em; 
+}
+.caption-wraper .caption{
+    position: relative;
+    left: -50%;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 0.4em 1em;
+    color: #fff;
+    -webkit-border-radius: 1.2em;
+    -moz-border-radius: 1.2em;
+    -ms-border-radius: 1.2em;
+    -o-border-radius: 1.2em;
+    border-radius: 1.2em;
+}*/

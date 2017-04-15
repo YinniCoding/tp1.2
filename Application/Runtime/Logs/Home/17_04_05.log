@@ -1,0 +1,9 @@
+[ 2017-04-05T16:14:57+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=m%3DHome%26c%3Dlogin%26a%3Dlogin%26type%3Dqq
+ERR: 非法操作:m=Home&c=login&a=login&type=qq
+
+[ 2017-04-05T22:50:41+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=home&c=Login&a=login/type/qq
+ERR: 非法操作:login/type/qq
+
+[ 2017-04-05T22:50:48+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=home&c=Login&a=login/type=qq
+ERR: 非法操作:login/type=qq
+

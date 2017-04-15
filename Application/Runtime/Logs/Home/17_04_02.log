@@ -1,0 +1,36 @@
+[ 2017-04-02T20:01:53+08:00 ] ::1 /thinkadmin/index.php?m=&c=Post&a=view&id=1
+ERR: SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+
+[ 2017-04-02T22:06:16+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=admin&c=base&a=index
+ERR: 非法操作:index
+
+[ 2017-04-02T22:06:21+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=admin&c=base
+ERR: 非法操作:index
+
+[ 2017-04-02T22:29:19+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=Home&c=page&a=index
+ERR: 参数错误或者未定义:name
+
+[ 2017-04-02T22:29:32+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=Home&c=page&a=page
+ERR: 非法操作:page
+
+[ 2017-04-02T22:29:40+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=Home&c=page&a=index
+ERR: 参数错误或者未定义:name
+
+[ 2017-04-02T22:36:12+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=Home&c=index&a=login
+ERR: 非法操作:login
+
+[ 2017-04-02T22:36:20+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=Home&c=index&a=page
+ERR: 非法操作:page
+
+[ 2017-04-02T22:36:29+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=Home&c=index&a=post
+ERR: 非法操作:post
+
+[ 2017-04-02T22:38:53+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Post&a=view&id=1
+ERR: SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+
+[ 2017-04-02T22:42:12+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=Home&c=post&a=view&id=2
+ERR: SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+
+[ 2017-04-02T22:42:35+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Post&a=view&id=1
+ERR: SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+

@@ -1,0 +1,3 @@
+[ 2017-04-06T14:30:44+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=m%3DHome%26c%3Dlogin%26a%3Dlogin%26type%3Dqq
+ERR: 非法操作:m=Home&c=login&a=login&type=qq
+

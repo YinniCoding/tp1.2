@@ -1,0 +1,38 @@
+#header {
+    background: black;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+#header a {
+    color: #fff;
+}
+
+#header a:hover {
+    color: orange;
+}
+.h1red {
+    color: red;
+}
+.hrtop {
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+.main_resign {
+    margin-top: 20px;
+    min-height: 760px;
+}
+.fill_in_a_form {
+    margin-top: 60px;
+}
+.footer {
+    min-height: 50px;
+    background: black;
+    line-height: 50px;
+}

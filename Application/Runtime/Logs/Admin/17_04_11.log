@@ -1,0 +1,6 @@
+[ 2017-04-11T09:05:11+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=Comments&a=index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'tpadmin.comments' n'existe pas
+
+[ 2017-04-11T19:26:15+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=Notes&a=add
+ERR: 模板不存在:./Application/Admin/View/Notes/add.html
+

@@ -1,0 +1,58 @@
+#header {
+    background: black;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+#header a {
+    color: #fff;
+}
+
+#header a:hover {
+    color: orange;
+}
+.h1red {
+    color: red;
+}
+.hrtop {
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+.main_load {
+    margin-top: 20px;
+    margin-right: 20px;
+    min-height: 580px;
+}
+#rememberpassword_warning {
+    display: none;
+    background: #ccc;
+}
+.login_space {
+    margin-top: 30px;
+}
+.footer {
+    min-height: 50px;
+    background: black;
+    line-height: 50px;
+}
+/*.loginwin{
+    background-color: #eeeef0;
+    border-radius: 10px;
+}*/
+.wangjimm{
+    margin-top: 5px;
+}
+.loginbutton{
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.resignpart{
+    margin-top: 20px;
+}

@@ -1,0 +1,72 @@
+[ 2017-04-04T17:41:31+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:46:59+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:47:01+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:47:04+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:47:07+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:48:00+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index&key=0
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:48:03+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index&key=q
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:48:15+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index&key=0
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:48:16+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:48:18+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:49:23+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:49:28+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:49:38+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:50:15+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:50:15+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:50:15+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:50:16+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:50:16+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:50:16+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:52:12+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:52:21+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:58:38+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:58:39+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+
+[ 2017-04-04T17:58:39+08:00 ] ::1 /ThinkphpOS_1.1/admin.php?m=Admin&c=post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'post.status' inconnu dans field list
+

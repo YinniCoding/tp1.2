@@ -1,0 +1,36 @@
+<ul class="nav navbar-nav side-nav" id="sidebarid">
+    <li><a href="{:U('index/index')}"><i class="fa fa-home"></i>  首页</a></li>
+    <li class="dropdown">
+        <a href="{:U('category/index')}"><i class="fa fa-reorder"></i>  文章分类</a>
+    </li>
+    <li class="dropdown">
+        <a href="{:U('post/index')}"><i class="fa fa-edit"></i>  文章管理</a>
+    </li>
+
+    <li class="dropdown">
+        <a href="{:U('Notes/index')}"><i class="fa fa-book"></i>  公告栏管理</a>
+    </li>
+    <li class="dropdown">
+        <a href="{:U('Liuyan/index')}"><i class="fa fa-book"></i>  留言板管理</a>
+    </li>
+    <li class="dropdown">
+        <a href="{:U('Comments/index')}"><i class="fa fa-pencil"></i>  评论管理</a>
+    </li>
+    <!-- <li class="dropdown">
+        <a href="{:U('page/index')}"><i class="fa fa-file"></i>  单页管理 </a>
+    </li> -->
+    <li class="dropdown">
+        <a href="{:U('member/index')}"><i class="fa fa-user"></i>  用户管理</a>  
+    </li>
+     <li class="dropdown">
+        <a href="{:U('links/index')}"><i class="fa fa-link"></i>  链接管理</a>
+    </li>
+    <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-cog"></i>  系统设置 <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            <li><a href="{:U('setting/index')}">自定义字段</a></li>
+            <li><a href="#">系统优化</a></li>
+            <li><a href="#">缓存管理</a></li>
+        </ul>
+    </li>
+</ul>

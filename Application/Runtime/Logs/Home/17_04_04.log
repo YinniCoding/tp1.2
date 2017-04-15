@@ -1,0 +1,123 @@
+[ 2017-04-04T20:48:57+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=Home&c=base
+ERR: 非法操作:index
+
+[ 2017-04-04T21:09:23+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify
+ERR: 非法操作:verify
+
+[ 2017-04-04T21:13:44+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify
+ERR: 非法操作:verify
+
+[ 2017-04-04T21:13:47+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify
+ERR: 非法操作:verify
+
+[ 2017-04-04T21:13:48+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify
+ERR: 非法操作:verify
+
+[ 2017-04-04T21:14:05+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify
+ERR: 非法操作:verify
+
+[ 2017-04-04T21:14:06+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify
+ERR: 非法操作:verify
+
+[ 2017-04-04T21:14:06+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify
+ERR: 非法操作:verify
+
+[ 2017-04-04T21:14:07+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify
+ERR: 非法操作:verify
+
+[ 2017-04-04T21:14:07+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify
+ERR: 非法操作:verify
+
+[ 2017-04-04T22:14:36+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify
+ERR: 非法操作:verify
+
+[ 2017-04-04T22:14:43+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify
+ERR: 非法操作:verify
+
+[ 2017-04-04T22:14:46+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify?0.3258394748696103
+ERR: 非法操作:verify?0.3258394748696103
+
+[ 2017-04-04T22:14:46+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify?0.3258394748696103?0.20963442136643784
+ERR: 非法操作:verify?0.3258394748696103?0.20963442136643784
+
+[ 2017-04-04T22:14:46+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify?0.3258394748696103?0.20963442136643784?0.44411807490390487
+ERR: 非法操作:verify?0.3258394748696103?0.20963442136643784?0.44411807490390487
+
+[ 2017-04-04T22:16:51+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify
+ERR: 非法操作:verify
+
+[ 2017-04-04T22:24:38+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify
+ERR: 非法操作:verify
+
+[ 2017-04-04T22:24:54+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify
+ERR: 非法操作:verify
+
+[ 2017-04-04T22:25:05+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify
+ERR: 非法操作:verify
+
+[ 2017-04-04T22:25:21+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify?0.2450635755071664
+ERR: 非法操作:verify?0.2450635755071664
+
+[ 2017-04-04T22:25:50+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify
+ERR: 非法操作:verify
+
+[ 2017-04-04T22:38:12+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=login&a=login
+ERR: Think\Controller:check_verify方法不存在！
+
+[ 2017-04-04T22:40:15+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify?0.5747515338043574
+ERR: 非法操作:verify?0.5747515338043574
+
+[ 2017-04-04T22:40:16+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify?0.5747515338043574?0.025749225430506506
+ERR: 非法操作:verify?0.5747515338043574?0.025749225430506506
+
+[ 2017-04-04T22:40:16+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify?0.5747515338043574?0.025749225430506506?0.8830811308002959
+ERR: 非法操作:verify?0.5747515338043574?0.025749225430506506?0.8830811308002959
+
+[ 2017-04-04T22:40:16+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify?0.5747515338043574?0.025749225430506506?0.8830811308002959?0.30429357810352764
+ERR: 非法操作:verify?0.5747515338043574?0.025749225430506506?0.8830811308002959?0.30429357810352764
+
+[ 2017-04-04T22:40:20+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify?0.7281956838236625
+ERR: 非法操作:verify?0.7281956838236625
+
+[ 2017-04-04T22:41:06+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify?0.6728295247655869
+ERR: 非法操作:verify?0.6728295247655869
+
+[ 2017-04-04T22:41:06+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify?0.6728295247655869?0.3737206543823868
+ERR: 非法操作:verify?0.6728295247655869?0.3737206543823868
+
+[ 2017-04-04T22:41:07+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify?0.6728295247655869?0.3737206543823868?0.49865176956718527
+ERR: 非法操作:verify?0.6728295247655869?0.3737206543823868?0.49865176956718527
+
+[ 2017-04-04T22:41:07+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify?0.6728295247655869?0.3737206543823868?0.49865176956718527?0.7196704633374682
+ERR: 非法操作:verify?0.6728295247655869?0.3737206543823868?0.49865176956718527?0.7196704633374682
+
+[ 2017-04-04T22:41:07+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=verify?0.6728295247655869?0.3737206543823868?0.49865176956718527?0.7196704633374682?0.5946551129678308
+ERR: 非法操作:verify?0.6728295247655869?0.3737206543823868?0.49865176956718527?0.7196704633374682?0.5946551129678308
+
+[ 2017-04-04T22:49:31+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=c%3Dlogin%26a%3Dlogin%26type%3Dqq
+ERR: 非法操作:c=login&a=login&type=qq
+
+[ 2017-04-04T22:49:59+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=login/login&c=type&a=qq
+ERR: 无法加载控制器:Type
+
+[ 2017-04-04T22:50:38+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=qq
+ERR: 非法操作:qq
+
+[ 2017-04-04T22:50:50+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=login&a=qq
+ERR: 非法操作:qq
+
+[ 2017-04-04T22:51:01+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=login&c=login&a=qq
+ERR: 非法操作:qq
+
+[ 2017-04-04T22:51:10+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=login&c=login&a=qq
+ERR: 非法操作:qq
+
+[ 2017-04-04T22:51:14+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=login&c=login&a=type%3Dqq
+ERR: 非法操作:type=qq
+
+[ 2017-04-04T22:51:30+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=login&c=login&a=type%3Dqq
+ERR: 非法操作:type=qq
+
+[ 2017-04-04T22:52:18+08:00 ] ::1 /ThinkphpOS_1.1/index.php?m=&c=Login&a=m%3DHome%26c%3Dlogin%26a%3Dlogin%26type%3Dqq
+ERR: 非法操作:m=Home&c=login&a=login&type=qq
+
