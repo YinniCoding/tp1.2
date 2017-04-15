@@ -14,10 +14,6 @@ class LoginController extends Controller {
         $username =I('username','','addslashes');
         $password =I('password','','md5');
         $code = I('verify','','strtolower');
-        //验证验证码是否正确
-        if(!($this->check_verify($code))){
-            $this->error('验证码错误');
-        }
         //验证账号密码是否正确
         $user = $member->where("username = '%s' and password= '%s'",array($username,$password))->find();
 
